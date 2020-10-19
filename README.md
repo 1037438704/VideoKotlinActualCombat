@@ -11,4 +11,20 @@
 *gradle版本  4.1.0*`
 
 
+# 创建基类 BaseActivity BaseFragmnet
+
+
+#分包
+>adapter
+>base
+>extension
+>model
+>presenter
+>ui
+>>aty
+>>fgt
+>util
+>view
+
+
 
