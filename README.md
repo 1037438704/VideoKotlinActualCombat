@@ -15,16 +15,27 @@
 
 
 #分包
->adapter
->base
->extension
->model
->presenter
->ui
->>aty
->>fgt
->util
->view
+---
+###adapter
+---
+###base
+---
+###extension
+---
+###model
+---
+###presenter
+---
+###ui
+---
+####aty
+---
+####fgt
+---
+###util
+---
+###view
+---
 
 
 
