@@ -2,22 +2,27 @@ package com.example.videokotlinactualcombat.ui.aty
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.preference.PreferenceManager
 import androidx.appcompat.widget.Toolbar
 import com.example.videokotlinactualcombat.R
 import com.example.videokotlinactualcombat.base.BaseActivity
 import com.example.videokotlinactualcombat.util.ToolBarManager
 import org.jetbrains.anko.find
 
-class SettingActivity : BaseActivity() ,ToolBarManager{
+class SettingActivity : BaseActivity(), ToolBarManager {
 
     override val toolbar: Toolbar by lazy { find<Toolbar>(R.id.tooblar) }
 
     override fun getLayoutId(): Int {
-        return  R.layout.activity_setting
+        return R.layout.activity_setting
     }
 
     override fun initData() {
         initSettingToolbar()
+        val sp = PreferenceManager.getDefaultSharedPreferences(this);
+        val push = sp.getBoolean("push", false)
+        myToast("$push")
+
     }
 
 

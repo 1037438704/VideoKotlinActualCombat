@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.aty.SettingActivity"></activity>
+        <activity android:name=".ui.aty.AboutActivity"></activity>
+        <activity android:name=".ui.aty.SettingActivity" />
         <activity
             android:name=".ui.aty.SplashActivity"
             android:theme="@style/AppTheme.FullScreen">
@@ -19,7 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.aty.MainActivity"></activity>
+        <activity android:name=".ui.aty.MainActivity" />
     </application>
 
 </manifest>
