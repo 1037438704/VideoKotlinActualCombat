@@ -35,11 +35,11 @@ abstract class BaseFragment :Fragment(){
     }
 
     //初始化数据
-    protected fun initData(){
+    protected open fun initData(){
 
     }
     //时间以及适配器处理
-    protected fun initListener() {
+    protected open fun initListener() {
     }
 
     fun myToast(msg : String){
