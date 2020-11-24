@@ -45,4 +45,5 @@ abstract class BaseFragment :Fragment(){
     fun myToast(msg : String){
         context?.runOnUiThread { toast(msg) }
     }
+
 }

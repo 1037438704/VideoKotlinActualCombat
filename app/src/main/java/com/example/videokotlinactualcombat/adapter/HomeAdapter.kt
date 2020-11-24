@@ -6,6 +6,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.videokotlinactualcombat.widget.HomeItemView
 
 class HomeAdapter : RecyclerView.Adapter<HomeAdapter.HomeHolder>() {
+
+
+
     class HomeHolder(itemView: View):RecyclerView.ViewHolder(itemView){
 
     }

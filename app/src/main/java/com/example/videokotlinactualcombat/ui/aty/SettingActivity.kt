@@ -22,8 +22,5 @@ class SettingActivity : BaseActivity(), ToolBarManager {
         val sp = PreferenceManager.getDefaultSharedPreferences(this);
         val push = sp.getBoolean("push", false)
         myToast("$push")
-
     }
-
-
 }

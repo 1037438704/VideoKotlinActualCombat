@@ -28,6 +28,10 @@ class HomeFragmnet : BaseFragment() {
         //适配
         val adapter = HomeAdapter()
         recyclerView.adapter = adapter;
+        loadDatas();
+    }
+   fun loadDatas(){
+
     }
 
 }

@@ -18,8 +18,6 @@ class MainActivity : BaseActivity(),ToolBarManager{
 
     override fun initData() {
         initMainToolBar()
-
-
     }
 
     override fun initListener() {
@@ -34,5 +32,4 @@ class MainActivity : BaseActivity(),ToolBarManager{
             transaction.commit()
         }
     }
-
 }
